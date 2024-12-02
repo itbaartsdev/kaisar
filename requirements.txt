@@ -1,0 +1,29 @@
+# Core dependencies
+aiohttp==3.10.10
+asyncio==3.4.3
+requests==2.31.0
+
+# HTTP/Proxy handling
+aiohttp-proxy==0.1.2
+aiohttp-socks==0.8.4
+better-proxy==1.2.0
+requests-toolbelt==1.0.0
+urllib3==1.26.20
+PySocks==1.7.1
+
+# Utility
+python-dateutil==2.9.0.post0
+colorama==0.4.6  # Untuk logging berwarna
+loguru==0.7.2    # Untuk logging yang lebih baik
+
+# Time handling
+DateTime==5.5
+pytz==2024.1
+
+# JSON handling
+jsonschema==4.23.0
+
+# Optional but recommended
+certifi==2024.8.30  # Untuk HTTPS
+charset-normalizer==3.3.2  # Untuk encoding
+idna==3.6  # Untuk domain handling
